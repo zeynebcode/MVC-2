@@ -1,6 +1,9 @@
 ﻿namespace MVC_2.Controllers
 {
-    internal class HomeVM
-    {
-    }
+       public class Home_VM
+   {
+
+       public List<Product> Products { get; set; }
+       public List<Slider> Sliders { get; set; }
+   }
 }
